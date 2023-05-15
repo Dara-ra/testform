@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="block-questionary">
+        <form action="">
+            <div class="block-person">
+                <div class="block-person_form">
+                    <div>
+                        <h2>Registration form</h2>
+                    </div>
+                    <div class="username ">
+                        <label for="name" class="middle">
+                            <img src="img/username.png" alt="username">
+                            <input type="text" id="name" name="username" placeholder="Username">
+                        </label>
+                    </div>
+                    <div class="mail">
+                        <label for="email" class="middle"> 
+                            <img src="img/email.png" alt="email">
+                            <input type="email" id="email" name="mail" placeholder="Email address">
+                        </label> 
+                    </div>
+                    <div class="password">
+                        <label for="password" class="middle">
+                            <img src="img/password.png" alt="password">
+                            <div class="middle parole">
+                                <input type="password" id="password" name="password" placeholder="Password">
+                                <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm password">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="block-person_detalis">
+                    <div>
+                        <h2>Personal detalis</h2>
+                    </div>
+                    <div class="personal_info">
+                        <label for="firstname">
+                            <input type="text" id="firstname" name="firstName" placeholder="First name">
+                        </label>
+                        <label for="lastname">
+                            <input type="text" id="lastname" name="lastName" placeholder="Last name">
+                        </label>
+                    </div>
+                    <div class="personal_info">
+                        <select name="gender" id="gender">
+                            <option>Male</option>
+                            <option>Female</option>                        
+                        </select>
+                        <input type="date" id="date" name="date">
+                    </div>
+                </div>
+            </div>    
+            <div class="block-check">
+                <label for="permission">
+                    <input type="checkbox" id="permission" name="permission">
+                    <span>I want to receive news and special offers</span>
+                </label>
+                <label for="consent">
+                    <input type="checkbox" id="consent" name="consent">
+                    <span>I agree with the Terms and Conditions</span>
+                </label>
+            </div>
+            <div class="block-button">
+                <button class="button">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
